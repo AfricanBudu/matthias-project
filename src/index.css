@@ -1,0 +1,94 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+
+/* @font-face {
+  font-family: 'Regular Grotesk';
+  src: 
+  url('./Fonts/WEB/fonts/ClashGrotesk-Regular.woff2') format('woff2'),
+  url('./Fonts/WEB/fonts/ClashGrotesk-Regular.woff') format('woff'),
+  url('./Fonts/WEB/fonts/ClashGrotesk-Regular.ttf') format('truetype')
+  ;
+} */
+
+.bg-tempura {
+  @apply bg-gradient-to-r from-gradientFrom via-gradientVia to-gradientTo;
+}
+
+.text-tempura {
+  @apply bg-clip-text text-transparent bg-gradient-to-r from-gradientFrom via-gradientVia to-gradientTo;
+}
+
+@layer base {
+  @font-face {
+    font-family: 'General Sans';
+    src: 
+    url('./Fonts/WEB/fonts/GeneralSans-Variable.woff2') format('woff2'),
+    url('./Fonts/WEB/fonts/GeneralSans-Variable.woff') format('woff'),
+    url('./Fonts/WEB/fonts/GeneralSans-Variable.ttf') format('truetype'),
+    ;
+  }
+
+  @font-face {
+    font-family: 'Extralight Grotesk';
+    src: 
+    url('./Fonts/WEB/fonts/ClashGrotesk-Extralight.woff2') format('woff2'),
+    url('./Fonts/WEB/fonts/ClashGrotesk-Extralight.woff') format('woff'),
+    url('./Fonts/WEB/fonts/ClashGrotesk-Extralight.ttf') format('truetype')
+    ;
+  }
+
+  @font-face {
+    font-family: 'Light Grotesk';
+    src: 
+    url('./Fonts/WEB/fonts/ClashGrotesk-Light.woff2') format('woff2'),
+    url('./Fonts/WEB/fonts/ClashGrotesk-Light.woff') format('woff'),
+    url('./Fonts/WEB/fonts/ClashGrotesk-Light.ttf') format('truetype')
+    ;
+  }
+
+  @font-face {
+    font-family: 'Regular Grotesk';
+    src: 
+    url('./Fonts/WEB/fonts/ClashGrotesk-Regular.woff2') format('woff2'),
+    url('./Fonts/WEB/fonts/ClashGrotesk-Regular.woff') format('woff'),
+    url('./Fonts/WEB/fonts/ClashGrotesk-Regular.ttf') format('truetype')
+    ;
+  }
+
+  @font-face {
+    font-family: 'Medium Grotesk';
+    src: 
+    url('./Fonts/WEB/fonts/ClashGrotesk-Medium.woff2') format('woff2'),
+    url('./Fonts/WEB/fonts/ClashGrotesk-Medium.woff') format('woff'),
+    url('./Fonts/WEB/fonts/ClashGrotesk-Medium.ttf') format('truetype')
+    ;
+  }
+  
+  @font-face {
+    font-family: 'Semibold Grotesk';
+    src: 
+    url('./Fonts/WEB/fonts/ClashGrotesk-Semibold.woff2') format('woff2'),
+    url('./Fonts/WEB/fonts/ClashGrotesk-Semibold.woff') format('woff'),
+    url('./Fonts/WEB/fonts/ClashGrotesk-Semibold.ttf') format('truetype')
+    ;
+  }
+  
+  @font-face {
+    font-family: 'Bold Grotesk';
+    src: 
+    url('./Fonts/WEB/fonts/ClashGrotesk-Bold.woff2') format('woff2'),
+    url('./Fonts/WEB/fonts/ClashGrotesk-Bold.woff') format('woff'),
+    url('./Fonts/WEB/fonts/ClashGrotesk-Bold.ttf') format('truetype')
+    ;
+  }
+}
+
+
+body {
+  background: #051118;
+  /* font-family: 'Bold Grotesk'; */
+  /* font-weight: bold; */
+}
