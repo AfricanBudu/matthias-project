@@ -1,3 +1,4 @@
+import Header from "./header";
 
 const Portfolio = () => {
     const portfolios = [
@@ -40,7 +41,8 @@ const Portfolio = () => {
 
   return (   
     <div>
-
+        <Header text='PORTFOLIO'/>
+        {portfolios}
     </div>
   )
 }

@@ -5,6 +5,7 @@ import About from './assets/about'
 import Lenis from '@studio-freight/lenis'
 import Service from './assets/service';
 import Process from './assets/process';
+import Portfolio from './assets/portfolio';
 // import { useScroll } from 'framer-motion';
 import { useEffect } from 'react';
 
@@ -30,6 +31,7 @@ export default function App() {
       <About />
       <Service/>
       <Process/>
+      <Portfolio/>
     </>
   )
 }
