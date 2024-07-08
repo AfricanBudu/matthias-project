@@ -13,6 +13,14 @@
   ;
 } */
 
+img{
+width: 100%;
+height: 100%;
+object-fit: cover
+
+
+}
+
 .bg-tempura {
   @apply bg-gradient-to-r from-gradientFrom via-gradientVia to-gradientTo;
 }
@@ -107,6 +115,7 @@
 
 body {
   background: #051118;
+  
   /* font-family: 'Bold Grotesk'; */
   /* font-weight: bold; */
 }
