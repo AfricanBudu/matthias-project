@@ -5,8 +5,8 @@ import About from './assets/about'
 import Lenis from '@studio-freight/lenis'
 import Service from './assets/service';
 import Process from './assets/process';
-import { useScroll } from 'framer-motion';
-import { useRef,useEffect } from 'react';
+// import { useScroll } from 'framer-motion';
+import { useEffect } from 'react';
 
 
 

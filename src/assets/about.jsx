@@ -1,5 +1,5 @@
 
-const about = () => {
+const About = () => {
   return (
     <div className=" overflow-x-hidden relative">
         <div className="overflow-hidden mt-10">
@@ -53,4 +53,4 @@ const about = () => {
   )
 }
 
-export default about;
+export default About;

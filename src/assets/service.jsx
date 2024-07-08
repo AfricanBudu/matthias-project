@@ -1,7 +1,5 @@
-import React from 'react'
 
-
-const service = () => {
+const Service = () => {
   return (
     <>
         <section className=' p-[4.5rem]'>
@@ -43,7 +41,7 @@ const service = () => {
                             <img src="/images/itinerum7 1.png" alt="" />
                         </div>
                         <div>
-                            <h2 className='text-[3.125rem] text-[#D6B89F99] font-Semibold_Grotesk py-6'>SCULPRTURE</h2>
+                            <h2 className='text-[3.125rem] text-[#D6B89F99] font-Semibold_Grotesk py-6'>SCULPTURE</h2>
                             <p className='text-[24px] font-General_Sans font-[500] text-[#B9B8C1] '>Discover the artistry of our meticulously crafted sculptures, each a testament to creativity and craftsmanship
                             </p>
                         </div>
@@ -57,4 +55,4 @@ const service = () => {
   )
 }
 
-export default service
+export default Service;

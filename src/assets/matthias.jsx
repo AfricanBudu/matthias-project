@@ -1,6 +1,6 @@
-import { ArrowRightIcon } from "@heroicons/react/16/solid"
+import { ArrowRightIcon } from "@heroicons/react/16/solid";
 
-const matthias = () => {
+const Matthias = () => {
   return (
     <div>
         <div className="container flex gap-14 pl-14 mt-28 mb-10 justify-normal items-start">
@@ -37,4 +37,4 @@ const matthias = () => {
   )
 }
 
-export default matthias;
+export default Matthias;

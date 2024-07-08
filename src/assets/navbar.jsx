@@ -1,5 +1,5 @@
 import { ChevronDownIcon, ArrowRightIcon } from "@heroicons/react/16/solid"
-const navbar = () => {
+const Navbar = () => {
   return (
     <nav className=" p-4">
       <div className=" container mx-auto flex justify-between items-center font-Regular_Grotesk">
@@ -29,4 +29,4 @@ const navbar = () => {
   )
 }
 
-export default navbar
+export default Navbar;

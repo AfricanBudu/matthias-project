@@ -1,4 +1,4 @@
-import React from 'react'
+// import React from 'react'
 import { useEffect, useRef, useState } from 'react';
 import { projects } from '../data';
 import Card from '../Components/Card/index'
@@ -9,7 +9,7 @@ import { useScroll } from 'framer-motion';
 
 
 
-const process = () => {
+const Process = () => {
         const [index, setIndex] = useState(0);
         const container = useRef(null);
         const [isLoading, setIsLoading] = useState(true);
@@ -44,9 +44,9 @@ const process = () => {
     <section className=''>
            <div className='p-[4.5rem]'>
                 <div className="relative w-[14.7rem]  text-[3.125rem] text-[#878787] mb-[2.2rem] font-Semibold_Grotesk ">
-                            <span className="gradient-underline font-[600]">
-                            SERVICE
-                            </span>
+                    <span className="gradient-underline font-[600]">
+                    SERVICE
+                    </span>
                 </div>
                 <div className='font-General_Sans'>
                 <p className=' text-[32px] leading-[38px] font-[500] text-[#B9B8C1]'>How we create these artistic sculptures</p>
@@ -68,4 +68,4 @@ const process = () => {
   )
 }
 
-export default process
+export default Process;
