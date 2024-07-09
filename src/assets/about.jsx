@@ -1,19 +1,9 @@
+import Header from "./header";
 
 const About = () => {
   return (
     <div className=" overflow-x-hidden relative">
-        <div className="overflow-hidden mt-10">
-            <div className="relative h-56 flex items-end justify-start overflow-hidden font-Semibold_Grotesk">
-                <div className="absolute text-[15.625rem] text-[#5353533B] tracking-tight leading-none -left-6 bottom-0">
-                    01
-                </div>
-                <div className="relative w-[14.7rem] text-right text-[3.125rem] text-[#878787] mb-[2.2rem]">
-                    <span className="gradient-underline">
-                    ABOUT
-                    </span>
-                </div>
-            </div>
-        </div>
+        <Header order={'01'} text={'ABOUT'}/>
 
 
         <div className="container pl-44 pr-20 flex justify-between">

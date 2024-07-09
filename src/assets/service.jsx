@@ -1,13 +1,10 @@
+import Header from "./header";
 
 const Service = () => {
   return (
     <>
-        <section className=' p-[4.5rem]'>
-            <div className="relative w-[14.7rem]  text-[3.125rem] text-[#878787] mb-[2.2rem] font-Semibold_Grotesk">
-                    <span className="gradient-underline font-[600]">
-                    SERVICE
-                    </span>
-            </div>
+        <Header order={'02'} text={'SERVICES'}/>
+        <section className=' px-[4.5rem]'>
             <div className='font-General_Sans'>
             <p className=' text-[32px] leading-[38px] font-[500] text-[#B9B8C1]'>Our services entails sculpting and furniture which are tailor made to the client taste. 
             This comes in various size and shapes</p>

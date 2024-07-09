@@ -29,9 +29,9 @@ export default function App() {
       <Navbar />
       <Matthias />
       <About />
-      <Service/>
-      <Process/>
-      <Portfolio/>
+      <Service />
+      <Process />
+      <Portfolio />
     </>
   )
 }
