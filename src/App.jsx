@@ -6,6 +6,7 @@ import Lenis from '@studio-freight/lenis'
 import Service from './assets/service';
 import Process from './assets/process';
 import Portfolio from './assets/portfolio';
+import Contact from './assets/contact';
 // import { useScroll } from 'framer-motion';
 import { useEffect } from 'react';
 
@@ -32,6 +33,7 @@ export default function App() {
       <Service />
       <Process />
       <Portfolio />
+      <Contact />
     </>
   )
 }
