@@ -3,7 +3,7 @@ import { ArrowRightIcon } from "@heroicons/react/16/solid";
 const Matthias = () => {
   return (
     <div>
-        <div className="container flex gap-14 pl-14 mt-28 mb-10 justify-normal items-start">
+        <div className="flex flex-col gap-14 pl-14 mt-28 mb-10 justify-normal items-start md:flex-row">
             <div>
                 <p className="text-tempura text-[5.5rem] font-Semibold_Grotesk leading-[6.2rem]">Matthias Pliessing</p>
                 <p className="-mt-3 text-[#FFEFCC] text-[4.375rem] font-taviraj italic leading-[6rem]">Visual Designer</p>
@@ -13,7 +13,7 @@ const Matthias = () => {
                     He uses kinetically contemporary style to craft
                 </p>
             </div>
-            <div className="flex gap-4 self-end font-taviraj font-medium">
+            <div className="flex gap-4 font-taviraj font-medium md:self-end">
                 <button className=' bg-[#E8E8E8] text-xl text-[#051118] px-6 py-1 rounded-3xl flex items-center'>
                     Instagram
                 </button>
