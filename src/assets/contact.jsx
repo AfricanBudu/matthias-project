@@ -29,7 +29,7 @@ const Contact = () => {
         </div>
       </div>
       <div className=" text-center py-16">
-        <p className=" text-[18px] text-[#ffffff] leading-[35px]">Copyright ©️ Matthias Pliessing 2024.</p>
+        <p className=" text-[18px] text-[#ffffff] leading-[35px]">Copyright &copy; Matthias Pliessing 2024.</p>
       </div>
     </div>
   )
