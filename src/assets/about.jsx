@@ -1,5 +1,5 @@
 import Header from "./header";
-import img from "/images/matthias-about-image.png";
+// import img from "/";
 
 const About = () => {
   return (
@@ -9,7 +9,7 @@ const About = () => {
         {/* ======== About Content==== */}
         <div className="pl-44 pr-20 flex flex-col justify-between md:flex-row">
             <div>
-                <img src={img} alt="" />
+                <img src="/images/matthias-about-image.png" alt="" />
             </div>
             <div className="pt-3">
                 <p className="text-[#D6B89F] text-[2.8125rem] leading-[2.9375rem] font-Medium_Grotesk">
