@@ -26,7 +26,7 @@ const Matthias = () => {
         <div className="welcome-img mt-28">
             <img src="/images/matthias-welcome-image.png" alt="a piece of art" />
         </div>
-        <div className="flex justify-center items-center my-40 font-taviraj italic text-center text-[#F5F5F5] text-[3.4375rem] leading-[4.5rem]">
+        <div className="flex justify-center items-center my-40 font-taviraj italic text-center text-[#F5F5F5] text-[3.4375rem] leading-[4.5rem] -z-20">
             <p>
                 {`"`}19 years of making <br/>artistic masterpieces. <br/>
                 A journey of passion, <br/>dedication, focus and <br/>resolute 
