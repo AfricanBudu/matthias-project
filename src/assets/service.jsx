@@ -11,7 +11,7 @@ const Service = () => {
             </div>
             <div className='pt-16'>
                 <div className="grid grid-cols-12 gap-12">
-                    <div className=' col-span-6  bg-[#2F2A26] h-[835px] p-6 rounded-[45px]'>
+                    <div className=' col-span-6  bg-[#2F2A26] p-6 pb-24 rounded-[45px]'>
                         <div className='flex items-center justify-center py-10 pt-5 w-full'>
                             <div className='w-[72px] border border-[#D9D9D999]'>
 
@@ -28,7 +28,7 @@ const Service = () => {
                             </p>
                         </div>
                     </div>
-                    <div className=' col-span-6 bg-[#2F2A26] h-[835px] p-6 rounded-[45px]'>
+                    <div className=' col-span-6 bg-[#2F2A26] p-6 pb-24 rounded-[45px]'>
                          <div className='flex items-center justify-center py-10 pt-5 w-full'>
                             <div className='w-[72px] border border-[#D9D9D999]'>
 
