@@ -37,7 +37,7 @@ const Portfolio = () => {
         <div className="px-0">
          <Header text='PORTFOLIO'/>
         </div>
-        <div className="justify-center items-center flex-col  xl:px-[4.5rem] md:px-[4rem] xs:px-10 gap-32">
+        <div className=" flex justify-center items-center flex-col  xl:px-[4.5rem] md:px-[4rem] xs:px-10 gap-32">
             {portfolios.map((work) => (
                 <div className="grid grid-cols-12 relative  gap-10" key={work.id}>
                     {work.largeImage && 
