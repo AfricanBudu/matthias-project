@@ -33,24 +33,24 @@ const Portfolio = () => {
     ]
 
   return (   
-    <div className="pb-10">
+    <div className="px-10">
         <div className="px-0">
          <Header text='PORTFOLIO'/>
         </div>
-        <div className="flex justify-center items-center flex-col px-16 gap-32">
+        <div className="justify-center items-center flex-col  xl:px-[4.5rem] md:px-[4rem] xs:px-10 gap-32">
             {portfolios.map((work) => (
-                <div className="flex justify-between relative max-h-[28rem]" key={work.id}>
+                <div className="grid grid-cols-12 relative  gap-10" key={work.id}>
                     {work.largeImage && 
-                    <div className="relative flex items-end basis-[49%] h-[28rem] pb-0">
+                    <div className="md:col-span-6 xs:col-span-12 basis-[49%] h-[28rem] pb-0">
                         <img src={`/images/${work.largeImage}.png`} alt="" className="h-[28rem] basis-full w-full object-cover" />
                     </div>}
-                    <div className="relative pl-0 basis-[49%] h-auto flex flex-col items-center justify-between">
+                    <div className="md:col-span-6 xs:col-span-12 pl-0 basis-[49%] h-auto flex flex-col items-center justify-between">
                         <div className="work-text flex-grow flex flex-col gap-3">
-                            <div className="work-type font-General_Sans font-medium text-2xl text-[#878787]">{work.workType}</div>
-                            <div className="work-name font-Medium_Grotesk text-[#FFEFCC] tracking-normal text-4xl">{work.workName}</div>
-                            <div className="work-description font-General_Sans font-medium text-2xl text-[#F0F0F0]">{work.description}</div>
+                            <div className="work-type font-General_Sans font-medium text-2xl text-[#878787] md:block xs:hidden">{work.workType}</div>
+                            <div className="work-name font-Medium_Grotesk text-[#FFEFCC] tracking-normal md:text-4xl xs:text-[14px]">{work.workName}</div>
+                            <div className="work-description font-General_Sans font-medium md:text-2xl xs:text-[12px]  text-[#F0F0F0]">{work.description}</div>
                         </div>
-                        <div>
+                        <div className="md:block xs:hidden">
                             <div className="flex justify-end my-3 gap-1">
                                 <div className="flex justify-center items-center h-[2.375rem] w-[2.375rem] bg-transparent border border-[#C3B09D] rounded-full">
                                     <ArrowLeftIcon className="h-5 w-5 text-[#C3B09D]" />
@@ -72,8 +72,8 @@ const Portfolio = () => {
                 </div>
             ))}
         </div> 
-        <div className="flex justify-end px-16 py-4">
-            <button className="text-[#FFF9EB] border border-[#FFF9EB] rounded-3xl px-10 font-Medium_Grotesk text-[1.6rem] py-1 tracking-wider">View all</button>
+        <div className="flex md:justify-end xs:justify-center px-16 py-4">
+            <button className="text-[#FFF9EB] md:border md:border-[#FFF9EB] xs:bg-[#D9D9D9] rounded-3xl px-10 font-Medium_Grotesk md:text-[1.6rem] xs:text-[14px] xs:text-[#000] py-1 tracking-wider">View all</button>
         </div>
     </div>
   )

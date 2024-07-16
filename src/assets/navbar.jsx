@@ -2,7 +2,7 @@ import { ChevronDownIcon, ArrowRightIcon } from "@heroicons/react/16/solid"
 const Navbar = () => {
   return (
     <nav className="py-4">
-      <div className="pl-14 flex justify-between items-center font-Regular_Grotesk md:mx-auto">
+      <div className="pl-14 xs:pl-6 flex justify-between items-center font-Regular_Grotesk md:mx-auto">
         <div className=" font-taviraj capitalize font-bold text-4xl text-[#DDDAC2] ">mp</div>
         {/* ======Larger screen====== */}
         <div className="hidden justify-between xl:w-[60%] md:flex">

@@ -3,11 +3,13 @@ import { ArrowRightIcon } from "@heroicons/react/16/solid";
 const Matthias = () => {
   return (
     <div>
-        <div className="flex flex-col gap-14 pl-14 mt-28 mb-10 justify-normal items-start md:flex-row">
+        <div className="flex flex-col gap-14 pl-14 md:pl-12  xs:pl-6 mt-28 mb-10 justify-normal items-start md:flex-row">
             <div>
-                <p className="text-tempura text-[5.5rem] font-Semibold_Grotesk leading-[6.2rem]">Matthias Pliessing</p>
-                <p className="-mt-3 text-[#FFEFCC] text-[4.375rem] font-taviraj italic leading-[6rem]">Visual Designer</p>
-                <p className="max-w-[35.5rem] font-General_Sans font-medium text-[#B9B8C1] text-2xl">
+                <div className="pb-10">
+                <p className=" xl:text-[5.5rem] md:text-[25px] xs:text-[32px] font-Semibold_Grotesk xl:leading-[6.2rem] md:leading-[24.4px] text-[#DDDAC2]">Matthias Pliessing</p>
+                <p className="-mt-3 xl:text-[4.375rem] md:text-[25px] xs:text-[28px] font-taviraj italic xl:leading-[6rem]  md:leading-[24.4px] text-[#DDDAC2]">Visual Designer</p>
+                </div>
+                <p className="max-w-[35.5rem] font-General_Sans font-medium text-[#B9B8C1] xl:text-2xl xs:text-[12px]">
                     An acclaimed furniture designer based in Brooklyn, 
                     New York. whose work uses steam bent wood. <br/>
                     He uses kinetically contemporary style to craft
@@ -26,7 +28,7 @@ const Matthias = () => {
         <div className="welcome-img mt-28">
             <img src="/images/matthias-welcome-image.png" alt="a piece of art" />
         </div>
-        <div className="flex justify-center items-center my-40 font-taviraj italic text-center text-[#F5F5F5] text-[3.4375rem] leading-[4.5rem] -z-20">
+        <div className="flex justify-center items-center my-40 font-taviraj italic text-center text-[#F5F5F5] xl:text-[3.4375rem] xs:text-[24px] xl:leading-[4.5rem] xs:leading-1 -z-20">
             <p>
                 {`"`}19 years of making <br/>artistic masterpieces. <br/>
                 A journey of passion, <br/>dedication, focus and <br/>resolute 

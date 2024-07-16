@@ -6,7 +6,7 @@ const Contact = () => {
       <div className="grid grid-cols-12 items-center">
         <div className=" col-span-6  flex flex-col gap-14" >
             <div className="flex flex-col gap-8">
-                <h1 className=" font-Bold_Grotesk text-[120px] leading-[83.5px] text-[#9C9485]">CONTACT</h1>
+                <h1 className=" font-Bold_Grotesk xl:text-[120px] md:text-[70px] xs:text-[18px] leading-[83.5px] text-[#9C9485]">CONTACT</h1>
                 <p className=" font-General_Sans text-[30px] leading-[25px] text-[#ffffff]">
                     For any enquires, contact us through our 
                     handles and our team will get back to you.
