@@ -33,11 +33,13 @@ const Portfolio = () => {
     ]
 
   return (   
-    <div className="px-10">
-        <div className="px-0">
+   <>
+     <div className="px-0">
          <Header text='PORTFOLIO'/>
         </div>
-        <div className=" flex justify-center items-center flex-col  xl:px-[4.5rem] md:px-[4rem] xs:px-10 gap-32">
+    <div className="xl:px-[4.5rem] md:px-[4rem] xs:px-6">
+        
+        <div className=" flex justify-center items-center flex-col  gap-32">
             {portfolios.map((work) => (
                 <div className="grid grid-cols-12 relative  gap-10" key={work.id}>
                     {work.largeImage && 
@@ -72,10 +74,11 @@ const Portfolio = () => {
                 </div>
             ))}
         </div> 
-        <div className="flex md:justify-end xs:justify-center px-16 py-4">
+        <div className="flex md:justify-end xs:justify-center  py-4">
             <button className="text-[#FFF9EB] md:border md:border-[#FFF9EB] xs:bg-[#D9D9D9] rounded-3xl px-10 font-Medium_Grotesk md:text-[1.6rem] xs:text-[14px] xs:text-[#000] py-1 tracking-wider">View all</button>
         </div>
     </div>
+   </>
   )
 }
 
