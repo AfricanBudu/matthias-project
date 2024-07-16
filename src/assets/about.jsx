@@ -15,7 +15,9 @@ const About = () => {
                 </div>
                 {/* ====First content==== */}
                 <div className="pt-3 leading-7 pr-5 w-[75%] md:mt-0 md:w-1/2">
+
                     <p className="text-[#D6B89F] xl:leading-[2.9375rem] font-Medium_Grotesk md:text-[2.8125rem] xs:leading-1 ">
+
                         “To be completely engaged with a material is a way
                         to cheat time, to slow it down. My work ethic and
                         construction approaches are rooted in this discipline
@@ -26,8 +28,8 @@ const About = () => {
             {/* ======== About Second Content============= */}
             <div className="matthias-background w-full pt-40 pb-5">
                 <div className="absolute bg-gradient-to-r w-[15.875rem] h-[10.25rem] blur-[100px] top-[59rem] -right-20 rounded-[100%]" />
-                <div className="px-[3.625rem] text-[1.8rem] font-General_Sans font-medium">
-                    <p className="leading-tight text-[#D9DBDC]">
+                <div className="px-[3.625rem] text-2xl font-General_Sans font-medium md:text-[1.8rem]">
+                    <p className="leading-relaxed text-[#D9DBDC] md:leading-tight">
                         Pliessing is a graduate of Rhode Island School of Design
                         and the University of Wisconsin (Madison). His interest
                         in woodworking developed after he decided to build a boat and
@@ -36,7 +38,7 @@ const About = () => {
                         was inspired to apply those techniques, particularly
                         steam bending of wood strips <br />around a mold, to furniture making.
                     </p>
-                    <p className="text-[#FFEFCC] text-[1.5rem]">continue</p>
+                    <p className="text-[#FFEFCC] text-[1.5rem] mt-5 underline capitalize">continue</p>
                 </div>
                 {/* ====Second image==== */}
                 <div className="flex justify-center items-center px-[3rem] my-10 mt-20">
