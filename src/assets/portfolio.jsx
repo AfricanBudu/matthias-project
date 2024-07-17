@@ -34,22 +34,26 @@ const Portfolio = () => {
 
   return (   
    <>
-     <div className="px-0">
+     <div className="px-0 md:block xs:hidden">
          <Header text='PORTFOLIO'/>
         </div>
-    <div className="xl:px-[4.5rem] md:px-[4rem] xs:px-6">
+
+    <div className="font-Semibold_Grotesk">
+        <h1 className="xl:pl-[4.7rem] md:pl-[4.7rem] xs:pl-6 text-center xl:text-[50px] md:text-[30px] xs:text-[18px] text-[#878787] mb-[2.2rem]">PORTFOLIO</h1>
+    </div>
+    <div className="xl:px-[4.5rem] md:px-[4rem] xs:px-6 pb-16">
         
-        <div className=" flex justify-center items-center flex-col  gap-32">
+        <div className=" md:flex xs:grid justify-center items-center flex-col  md:gap-32 xs:gap-10">
             {portfolios.map((work) => (
-                <div className="grid grid-cols-12 relative  gap-10" key={work.id}>
+                <div className="grid grid-cols-12 relative overflow-hidden  md:gap-10 xs:gap-4" key={work.id}>
                     {work.largeImage && 
-                    <div className="md:col-span-6 xs:col-span-12 basis-[49%] h-[28rem] pb-0">
-                        <img src={`/images/${work.largeImage}.png`} alt="" className="h-[28rem] basis-full w-full object-cover" />
+                    <div className="md:col-span-6 xs:col-span-12 md:h-[28rem] xs:h-[124px] w-full pb-0 ">
+                        <img src={`/images/${work.largeImage}.png`} alt="" className="h-full w-full  object-cover" />
                     </div>}
                     <div className="md:col-span-6 xs:col-span-12 pl-0 basis-[49%] h-auto flex flex-col items-center justify-between">
                         <div className="work-text flex-grow flex flex-col gap-3">
                             <div className="work-type font-General_Sans font-medium text-2xl text-[#878787] md:block xs:hidden">{work.workType}</div>
-                            <div className="work-name font-Medium_Grotesk text-[#FFEFCC] tracking-normal md:text-4xl xs:text-[14px]">{work.workName}</div>
+                            <div className="work-name font-Medium_Grotesk text-[#FFEFCC] tracking-normal md:text-4xl md:no-underline xs:underline underline-offset-4">{work.workName}</div>
                             <div className="work-description font-General_Sans font-medium md:text-2xl xs:text-[12px]  text-[#F0F0F0]">{work.description}</div>
                         </div>
                         <div className="md:block xs:hidden">
