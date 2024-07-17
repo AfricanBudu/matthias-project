@@ -1,8 +1,8 @@
 import { ChevronDownIcon, ArrowRightIcon } from "@heroicons/react/16/solid"
 const Navbar = () => {
   return (
-    <nav className="py-4">
-      <div className="pl-14 xs:pl-6 flex justify-between items-center font-Regular_Grotesk md:mx-auto">
+    <nav className="pt-8 py-4 xl:px-14 md:px-14 xs:px-6">
+      <div className="  flex justify-between items-center font-Regular_Grotesk md:mx-auto">
         <div className=" font-taviraj capitalize font-bold text-4xl text-[#DDDAC2] ">mp</div>
         {/* ======Larger screen====== */}
         <div className="hidden justify-between xl:w-[60%] md:flex">
@@ -29,11 +29,12 @@ const Navbar = () => {
         </div>
         {/* ===== Mobile screen ====== */}
         <div className="md:hidden ">
-          <button
-            className='mx-6 w-10 h-7 flex flex-col justify-between'>
-            <div className="w-8 h-[2px] bg-white rounded"></div>
-            <div className="w-8 h-[2px] bg-white rounded"></div>
-            <div className="w-8 h-[2px] bg-white rounded"></div>
+          <button>
+              <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-6 text-white">
+                <path stroke-linecap="round" stroke-linejoin="round" d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5" />
+              </svg>
+
+            
           </button>
         </div>
       </div>

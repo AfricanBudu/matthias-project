@@ -6,7 +6,7 @@ const Matthias = () => {
         <div className="flex flex-col gap-14 pl-14 md:pl-12  xs:pl-6 mt-28 mb-10 justify-normal items-start md:flex-row">
             <div>
                 <div className="pb-10">
-                <p className=" xl:text-[5.5rem] md:text-[25px] xs:text-[32px] font-Semibold_Grotesk xl:leading-[6.2rem] md:leading-[24.4px] text-[#DDDAC2]">Matthias Pliessing</p>
+                <p className=" xl:text-[5.5rem] md:text-[25px] xs:text-[32px] font-Medium_Grotesk xl:leading-[6.2rem] md:leading-[24.4px] text-[#DDDAC2]">Matthias Pliessing</p>
                 <p className="-mt-3 xl:text-[4.375rem] md:text-[25px] xs:text-[28px] font-taviraj italic xl:leading-[6rem]  md:leading-[24.4px] text-[#DDDAC2]">Visual Designer</p>
                 </div>
                 <p className="max-w-[35.5rem] font-General_Sans font-medium text-[#B9B8C1] xl:text-[24px] md:text-[24px] xs:text-[12px] md:max-w-[650px] xs:max-w-[254px]">
@@ -15,7 +15,7 @@ const Matthias = () => {
                 He uses "kinetically contemporary" style to craft masterpiece furniture for executive interior
                 </p>
             </div>
-            <div className="flex gap-4 font-taviraj font-medium md:self-end">
+            <div className="flex gap-4 font-General_Sans font-medium md:self-end">
                 <button className=' bg-[#E8E8E8] text-xl text-[#051118] px-6 py-1 rounded-3xl flex items-center'>
                     Instagram
                 </button>
