@@ -3,7 +3,7 @@
 const Contact = () => {
   return (
     <div className="">
-      <div className="grid xl:px-[4.5rem] md:px-[4rem] xs:px-6 grid-cols-12 items-center md:h-full xs:h-[420px]  mybg">
+      <div className="grid xl:px-[4.5rem] md:px-[4rem] xs:px-4 grid-cols-12 items-center md:h-full xs:h-[420px]  mybg">
         <div className=" md:col-span-6 xs:col-span-12  flex flex-col md:gap-14 xs:gap-10 py-20 md:bg-none  " >
             <div className="flex flex-col md:gap-8 xs:gap-4">
                 <h1 className=" font-Bold_Grotesk xl:text-[120px] md:text-[70px] xs:text-[18px] leading-[83.5px] text-[#9C9485] md:block xs:hidden">CONTACT</h1>

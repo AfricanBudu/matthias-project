@@ -41,7 +41,7 @@ const Portfolio = () => {
     <div className="font-Semibold_Grotesk">
         <h1 className="xl:pl-[4.7rem] md:pl-[4.7rem] xs:pl-6 text-center xl:text-[50px] md:text-[30px] xs:text-[18px] text-[#878787] mb-[2.2rem]">PORTFOLIO</h1>
     </div>
-    <div className="xl:px-[4.5rem] md:px-[4rem] xs:px-6 pb-16">
+    <div className="xl:px-[4.5rem] md:px-[4rem] xs:px-4 pb-16">
         
         <div className=" md:flex xs:grid justify-center items-center flex-col  md:gap-32 xs:gap-10">
             {portfolios.map((work) => (
