@@ -17,15 +17,15 @@ const Card = ({i, title, description, progress, range, targetScale, bg}) => {
   return (
    <>
    <a href="#">
-   <div ref={container} className="h-screen flex items-center justify-center sticky top-0 ">
+   <div ref={container} className="md:h-screen md:pb-0 xs:pb-24 flex items-center justify-center sticky top-0 ">
       <motion.div 
         style={{backgroundRepeat:`no-repeat`, backgroundSize:`cover`, scale, top:`calc(-5vh + ${i * 40}px)`, filter: `blur(${blur}px)`, background:`url(${bg})`}} 
-        className="relative top-[-45%] flex items-end  md:h-[90vh] xs:h-[50vh] rounded-[50px] w-full overflow-hidden"
+        className="relative md:top-[-45%]  flex items-end  md:h-[100vh] xs:h-[50vh] rounded-t-[50px] w-full overflow-hidden"
       >
        
        <div className='h-2/4 bg-[#d9d9d94c] backdrop-blur-2xl w-full px-16'>
-       <h2 className='text-[60px] text-[#FFF1E5] font-Semibold_Grotesk py-6'>{title}</h2>
-       <p className='text-[28px] text-[#FFEBDA] leading-[35px] font-General_Sans font-[500]'>{description}</p>
+       <h2 className='md:text-[60px] xs:text-[17px] text-[#FFF1E5] font-Semibold_Grotesk py-6'>{title}</h2>
+       <p className='md:text-[28px] xs:text-[12px] text-[#FFEBDA] md:leading-[35px] font-General_Sans font-[500]'>{description}</p>
         
        </div>
         

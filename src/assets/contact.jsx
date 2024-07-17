@@ -2,13 +2,13 @@
 
 const Contact = () => {
   return (
-    <div className="xl:px-[4.5rem]">
-      <div className="grid md:px-[4rem] xs:px-6 grid-cols-12 items-center xs:h-[420px] xs:bg-[#242424] ">
-        <div className=" md:col-span-6 xs:col-span-12  flex flex-col md:gap-14 xs:gap-10 py-20 md:bg-none " >
+    <div className="">
+      <div className="grid xl:px-[4.5rem] md:px-[4rem] xs:px-6 grid-cols-12 items-center md:h-full xs:h-[420px]  mybg">
+        <div className=" md:col-span-6 xs:col-span-12  flex flex-col md:gap-14 xs:gap-10 py-20 md:bg-none  " >
             <div className="flex flex-col md:gap-8 xs:gap-4">
                 <h1 className=" font-Bold_Grotesk xl:text-[120px] md:text-[70px] xs:text-[18px] leading-[83.5px] text-[#9C9485] md:block xs:hidden">CONTACT</h1>
                 <h1 className=" font-Bold_Grotesk xl:text-[120px] md:text-[70px] xs:text-[18px] text-[#9C9485] leading-[12px] xs:block md:hidden">CONTACT PLIESSING</h1>
-                <p className=" font-General_Sans md:text-[30px] xs:text-[14px] md:leading-[35px] xs:leading-[20px]  text-[#ffffff] xs:max-w-[275px]">
+                <p className=" font-General_Sans md:text-[30px] xs:text-[14px] md:leading-[35px] xs:leading-[20px]  text-[#ffffff] md:max-w-[629px] xs:max-w-[275px]">
                     For any enquires, contact us through our 
                     handles and our team will get back to you.
                 </p>

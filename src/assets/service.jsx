@@ -6,7 +6,7 @@ const Service = () => {
         <Header order={'02'} text={'SERVICES'}/>
         <section className=' xl:px-[4.5rem] md:px-[4rem] xs:px-6'>
             <div className='font-General_Sans'>
-            <p className=' xl:text-[32px] leading-[38px] font-[500] text-[#B9B8C1]'>Our services entails sculpting and furniture which are tailor made to the client taste. 
+            <p className=' xl:text-[32px] md:leading-[38px] xs:text-[12px] font-[500] text-[#B9B8C1]'>Our services entails sculpting and furniture which are tailor made to the client taste. 
             This comes in various size and shapes</p>
             </div>
             <div className='pt-16'>

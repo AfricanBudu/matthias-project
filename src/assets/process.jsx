@@ -47,12 +47,12 @@ const Process = () => {
       <Header order='03' text='PROCESS'/>
       </div>
 
-      <div className='xl:px-[4.5rem] md:px-[4rem] xs:px-6'>
+      <div className='xl:px-[4.5rem] md:px-[4rem] xs:px-6 pb-20'>
         <div className='font-General_Sans'>
-          <p className=' text-[32px] leading-[38px] font-[500] text-[#B9B8C1]'>How we create these artistic sculptures</p>
+          <p className=' md:text-[32px]  xs:text-[12px] leading-[38px] font-[500] text-[#B9B8C1]'>How we create these artistic sculptures</p>
         </div>            
       </div>
-      <div className=' px-4'>
+      <div className=' '>
         <main ref={container} className="relative mt-[10vh] ">
           {
             projects.map( (project, i) => {
