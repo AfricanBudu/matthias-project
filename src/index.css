@@ -124,6 +124,9 @@ body {
   .mybg{
     background:linear-gradient(rgba(0, 0, 0, 0.548), rgba(0, 0, 0, 0.541)), url("/public/images/matthias-pliessnig-1\ 2.png");
   }
+  .bg-me{
+    background: linear-gradient(to right,transparent,transparent,rgba(0, 0, 0, 0.499), rgba(0, 0, 0, 0.821));
+  }
   
   
 }
