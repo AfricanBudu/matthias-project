@@ -3,7 +3,7 @@ const Navbar = () => {
   return (
     <nav className="pt-8 py-4 xl:px-14 md:px-14 xs:px-4">
       <div className="  flex justify-between items-center font-Regular_Grotesk md:mx-auto">
-        <div className=" font-taviraj capitalize font-bold text-4xl text-[#DDDAC2] ">mp</div>
+        <div className=" font-taviraj italic  capitalize font-bold md:text-[36px] xs:text-[15.27px] text-[#DDDAC2] ">mp</div>
         {/* ======Larger screen====== */}
         <div className="hidden justify-between xl:w-[60%] md:flex">
           <ul className=" flex mr-5 items-center text-[#B9B8C1] text-xl space-x-6">
@@ -22,7 +22,7 @@ const Navbar = () => {
             <div className='mr-6 bg-tempura inline-block relative p-[0.0625rem] rounded-3xl items-center gradient-border'  >
               <button className=' bg-[#E8E8E8] text-xl text-[#414141] px-6 py-1 rounded-3xl flex items-center'>
                 Contact Us
-                <ArrowRightIcon className="h-5 w-5 ml-2" />
+                <ArrowRightIcon className="h-[12px] w-[18px] ml-2" />
               </button>
             </div>
           </div>
