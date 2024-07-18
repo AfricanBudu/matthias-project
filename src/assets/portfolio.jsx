@@ -87,8 +87,12 @@ const Portfolio = () => {
                 </div>
             ))}
         </div> 
-        <div className="flex md:justify-end xs:justify-center  py-4">
-            <button className="text-[#FFF9EB] md:border md:border-[#FFF9EB] xs:bg-[#D9D9D9] rounded-3xl px-10 font-Medium_Grotesk md:text-[1.6rem] xs:text-[14px] xs:text-[#000] py-1 tracking-wider">View all</button>
+        <div className="flex md:justify-end xs:justify-center  py-4 xs:pt-24">
+            <button className="md:text-[#FFF9EB] md:border md:border-[#E8E8E8] md:bg-[#171717] overflow-hidden   xs:bg-[#D9D9D9] rounded-3xl px-10 font-Medium_Grotesk md:text-[1.6rem] xs:text-[14px] xs:text-[#000] py-1 tracking-wider h-[54px] md:w-[177px] xs:w-[230px]">
+                <span className="md:block xs:hidden">View all</span> 
+                <span className="md:hidden xs:block">Learn More</span> 
+
+            </button>
         </div>
     </div>
    </>
