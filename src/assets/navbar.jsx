@@ -1,9 +1,11 @@
 import { ChevronDownIcon, ArrowRightIcon } from "@heroicons/react/16/solid"
+
 import  { useState } from 'react';
 const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
 
   const toggleDropdown = () => setIsOpen(!isOpen);
+
   return (
     <nav className="pt-8 py-4 xl:px-14 md:px-14 xs:px-4">
       <div className="  flex justify-between items-center font-Regular_Grotesk md:mx-auto">
@@ -33,6 +35,7 @@ const Navbar = () => {
         </div>
         {/* ===== Mobile screen ====== */}
         <div className="md:hidden ">
+
           {/* <button>
               <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth="1.5" stroke="currentColor" className="size-10 text-[#DDDAC2]">
                 <path strokeLinecap="round" strokeLinejoin="round" d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5" />
