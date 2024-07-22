@@ -51,10 +51,10 @@ const Navbar = () => {
             </div>
             {isOpen && (
                 <div className="dropdown-list fixed bg-white right-0 left-0 bottom-16 top-0 z-[-1] pt-24 p-4 rounded-b-3xl">
-                    <div className="dropdown-item" onClick={() => setIsOpen(false)}>Home</div>
-                    <div className="dropdown-item" onClick={() => setIsOpen(false)}>About</div>
-                    <div className="dropdown-item" onClick={() => setIsOpen(false)}>Product</div>
-                    <div className="dropdown-item" onClick={() => setIsOpen(false)}>Process</div>
+                    <div className="dropdown-item text-2xl" onClick={() => setIsOpen(false)}>Home</div>
+                    <div className="dropdown-item text-2xl" onClick={() => setIsOpen(false)}>About</div>
+                    <div className="dropdown-item text-2xl" onClick={() => setIsOpen(false)}>Product</div>
+                    <div className="dropdown-item text-2xl" onClick={() => setIsOpen(false)}>Process</div>
                 </div>
             )}
         </div>
