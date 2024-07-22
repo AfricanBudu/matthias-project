@@ -50,7 +50,7 @@ const Navbar = () => {
                 <div className="line"></div>
             </div>
             {isOpen && (
-                <div className="dropdown-list fixed bg-white right-0 left-0 bottom-16 top-0 z-[-1] pt-24 p-4 rounded-b-3xl">
+                <div className="dropdown-list fixed bg-[#171717] text-[#B9B8C1]  right-0 left-0 bottom-0 top-0 z-[-1] pt-24 p-4 ">
                     <div className="dropdown-item text-2xl" onClick={() => setIsOpen(false)}>Home</div>
                     <div className="dropdown-item text-2xl" onClick={() => setIsOpen(false)}>About</div>
                     <div className="dropdown-item text-2xl" onClick={() => setIsOpen(false)}>Product</div>
