@@ -51,8 +51,8 @@ const Portfolio = () => {
                         <img src={`/images/${work.largeImage}.png`} alt="" className="h-full w-full  object-cover" />
                         <div className=" absolute bottom-0 right-0 left-0 top-0 bg-me flex justify-end items-center">
                             <div>
-                            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="0.8" stroke="currentColor" class="size-7 text-[#FFEFCC]">
-                            <path stroke-linecap="round" stroke-linejoin="round" d="m8.25 4.5 7.5 7.5-7.5 7.5" />
+                            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth="0.8" stroke="currentColor" className="size-7 text-[#FFEFCC]">
+                            <path strokeLinecap="round" strokeLinejoin="round" d="m8.25 4.5 7.5 7.5-7.5 7.5" />
                             </svg>
 
                             </div>
