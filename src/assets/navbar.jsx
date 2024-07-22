@@ -1,5 +1,39 @@
 import { ChevronDownIcon, ArrowRightIcon } from "@heroicons/react/16/solid"
+import { motion } from "framer-motion"
+import { useState } from "react"
+
 const Navbar = () => {
+  const [toggleNav, setToggleNav] = useState(false)
+  const Links = [
+    { name: "Home", link: "/" }
+  ]
+
+  const topVariants = {
+    closed: {
+      rotate: 0
+    },
+    opened: {
+      rotate: 45,
+      backgroundColor: "rgb(255, 255, 255)"
+    }
+  }
+  const centerVariants = {
+    closed: {
+      opacity: 1
+    },
+    opened: {
+      opacity: 0
+    }
+  }
+  const bottomVariants = {
+    closed: {
+      rotate: 0
+    },
+    opened: {
+      rotate: -45,
+      backgroundColor: "rgb(255, 255, 255)"
+    }
+  }
   return (
     <nav className="pt-8 py-4 xl:px-14 md:px-14 xs:px-4">
       <div className="  flex justify-between items-center font-Regular_Grotesk md:mx-auto">
@@ -29,12 +63,12 @@ const Navbar = () => {
         </div>
         {/* ===== Mobile screen ====== */}
         <div className="md:hidden ">
-          <button>
-              <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-10 text-[#DDDAC2]">
-                <path stroke-linecap="round" stroke-linejoin="round" d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5" />
-              </svg>
-
-            
+          <button
+            onClick={() => setToggleNav(!toggleNav)}
+            className='w-10 h-6 flex flex-col justify-between relative z-30'>
+            <motion.div className="w-8 h-1 bg-white rounded origin-left"></motion.div>
+            <motion.div className="w-8 h-1 bg-white rounded"></motion.div>
+            <motion.div className="w-8 h-1 bg-white rounded origin-left"></motion.div>
           </button>
         </div>
       </div>
