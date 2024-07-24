@@ -7,7 +7,7 @@ const Card = ({i, title, description, progress, range, targetScale, bg}) => {
   const container = useRef(null);
   const { scrollYProgress } = useScroll({
     target: container,
-    offset: ['start end', 'start start']
+    offset: ['start middle', 'start middle']
   })
 
   const imageScale = useTransform(scrollYProgress, [0, 1], [2, 1])
@@ -19,7 +19,7 @@ const Card = ({i, title, description, progress, range, targetScale, bg}) => {
    <a href="#">
    <div className="flex items-center justify-center sticky top-0 mb-[10vw]">
       <motion.div 
-        className="relative top-[-45%] flex flex-col items-end md:h-[100vh] xs:h-[50vh] rounded-t-[50px] w-full overflow-hidden"
+        className="relative  flex flex-col items-end md:h-[100vh] xs:h-[50vh] rounded-t-[50px] w-full overflow-hidden"
       >
        <div 
         style={{ background:`url(${bg})`, backgroundRepeat: `no-repeat`, backgroundSize:`cover`, backgroundPosition: `center`, filter: `blur(${blur}px)`}}
