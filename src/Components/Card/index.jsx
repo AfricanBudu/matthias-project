@@ -19,7 +19,7 @@ const Card = ({i, title, description, progress, range, targetScale, bg}) => {
    <a href="#">
    <div ref={container} className="md:h-screen xs:h-[70vh] md:pb-0 xs:pb-24 flex items-center justify-center sticky top-0 ">
       <motion.div 
-        style={{backgroundRepeat:`no-repeat`, backgroundSize:`cover`, scale, top:`calc(-5vh + ${i * 40}px)`, filter: `blur(${blur}px)`, background:`url(${bg})`}} 
+        style={{backgroundRepeat:`no-repeat`, backgroundSize:`cover`, backgroundPosition: `center`, scale, top:`calc(-5vh + ${i * 40}px)`, filter: `blur(${blur}px)`, background:`url(${bg})`}} 
         className="relative top-[-45%]  flex items-end  md:h-[100vh] xs:h-[50vh] rounded-t-[50px] w-full overflow-hidden"
       >
        
