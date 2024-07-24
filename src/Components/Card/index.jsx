@@ -17,15 +17,21 @@ const Card = ({i, title, description, progress, range, targetScale, bg}) => {
   return (
    <>
    <a href="#">
-   <div className="pb-0 flex items-center py-0 justify-center sticky top-0 ">
+   <div className="flex items-center justify-center sticky top-0 mb-[10vw]">
       <motion.div 
-        style={{backgroundRepeat:`no-repeat`, backgroundSize:`cover`, backgroundPosition: `top`, scale, top:`calc(-5vh + ${i * 40}px)`, filter: `blur(${blur}px)`, background:`url(${bg})`}} 
-        className="relative top-[-45%]  flex items-end  md:h-[100vh] xs:h-[50vh] rounded-t-[50px] w-full overflow-hidden"
+        className="relative top-[-45%] flex flex-col items-end md:h-[100vh] xs:h-[50vh] rounded-t-[50px] w-full overflow-hidden"
       >
-       
-       <div className='h-2/4 bg-[#d9d9d94c] backdrop-blur-2xl w-full px-16'>
-       <h2 className='md:text-[60px] xs:text-[17px] text-[#FFF1E5] font-Semibold_Grotesk py-6'>{title}</h2>
-       <p className='md:text-[28px] xs:text-[12px] text-[#FFEBDA] md:leading-[35px] font-General_Sans font-[500]'>{description}</p>
+       <div 
+        style={{ background:`url(${bg})`, backgroundRepeat: `no-repeat`, backgroundSize:`cover`, backgroundPosition: `center`, filter: `blur(${blur}px)`}}
+        className='w-full h-1/2'
+       ></div>
+       <div
+        style={{ background:`url(${bg})`, backgroundRepeat: `no-repeat`, backgroundSize:`cover`, backgroundPosition: `center`, }}
+        className={`h-1/2 w-full`}>
+        <div className='bg-[#d9d9d94c] flex flex-col xs:pt-[5vw] md:pt-3 md:justify-start backdrop-blur-2xl w-full h-full px-16'>
+          <h2 className='md:text-[60px] xs:text-[17px] text-[#FFF1E5] font-Semibold_Grotesk py-[1.5vw]'>{title}</h2>
+          <p className='md:text-[28px] xs:text-[12px] text-[#FFEBDA] md:leading-[35px] font-General_Sans font-[500]'>{description}</p>
+        </div>
         
        </div>
         

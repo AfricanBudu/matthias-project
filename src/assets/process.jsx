@@ -53,7 +53,7 @@ const Process = () => {
         </div>            
       </div>
       <div className=''>
-        <main ref={container} className="relative mt-[10vh] ">
+        <main ref={container} className="relative mt-[10vw] ">
           {
             projects.map( (project, i) => {
               const targetScale = 1 - ( (projects.length - i) * 0.05);
