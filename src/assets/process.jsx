@@ -52,7 +52,7 @@ const Process = () => {
           <p className=' md:text-[32px]  xs:text-[12px] leading-[38px] font-[500] text-[#B9B8C1]'>How we create these artistic sculptures</p>
         </div>            
       </div>
-      <div className=' '>
+      <div className=''>
         <main ref={container} className="relative mt-[10vh] ">
           {
             projects.map( (project, i) => {
