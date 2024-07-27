@@ -9,8 +9,11 @@ export default {
       xs: "300px",
       sm: "640px",
       md: "768px",
+      lg: "1114px",
       xl: "1280px",
-      ["2xl"]: "1530px" 
+      ["2xl"]: "1530px",
+      phone: {'max': '450px'},
+      tab: {'max': '1113px'},
     },
     extend: {
       fontFamily: {

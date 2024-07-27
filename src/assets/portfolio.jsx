@@ -1,4 +1,4 @@
-import Header from "./header";
+import Header from "../Components/Card/header";
 import { ArrowRightIcon, ArrowLeftIcon } from "@heroicons/react/16/solid";
 
 

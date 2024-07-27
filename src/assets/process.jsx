@@ -2,7 +2,7 @@
 import { useEffect, useRef, useState } from 'react';
 import { projects } from '../data';
 import Card from '../Components/Card/index';
-import Header from './header';
+import Header from '../Components/Card/header';
 
 import { useScroll } from 'framer-motion';
 
@@ -47,13 +47,13 @@ const Process = () => {
       <Header order='03' text='PROCESS'/>
       </div>
 
-      <div className='xl:px-[4.5rem] md:px-[4rem] xs:px-4 pb-20'>
+      <div className='xl:px-[4.5rem] md:px-[4rem] xs:px-4 pb-[20]'>
         <div className='font-General_Sans'>
           <p className=' md:text-[32px]  xs:text-[12px] leading-[38px] font-[500] text-[#B9B8C1]'>How we create these artistic sculptures</p>
         </div>            
       </div>
       <div className=''>
-        <main ref={container} className="relative mt-[10vw] ">
+        <main ref={container} className="relative mt-[7vw] ">
           {
             projects.map( (project, i) => {
               const targetScale = 1 - ( (projects.length - i) * 0.05);

@@ -28,9 +28,11 @@ export default function App() {
   return (
     <>
       <Navbar />
-      <Matthias />
-      <About />
-      <Service />
+      <div className='relative overflow-hidden'>
+        <Matthias />
+        <About />
+        <Service />
+      </div>
       <Process />
       <Portfolio />
       <Contact />
