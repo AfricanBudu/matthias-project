@@ -1,17 +1,17 @@
 
-import { useTransform, motion, useScroll } from 'framer-motion';
-import { useRef,useEffect } from 'react';
+import { useTransform, motion, } from 'framer-motion';
+import { useRef } from 'react';
 
 const Card = ({i, title, description, progress, range, targetScale, bg}) => {
 
   const container = useRef(null);
-  const { scrollYProgress } = useScroll({
-    target: container,
-    offset: ['start end', 'start start']
-  })
+  // const { scrollYProgress } = useScroll({
+  //   target: container,
+  //   offset: ['start end', 'start start']
+  // })
 
-  const imageScale = useTransform(scrollYProgress, [0, 1], [2, 1])
-  const scale = useTransform(progress, range, [1, targetScale]);
+  // const imageScale = useTransform(scrollYProgress, [0, 1], [2, 1])
+  // const scale = useTransform(progress, range, [1, targetScale]);
   // const blur = useTransform(scale, [1, targetScale], [0, 100]);
   const blur = useTransform(progress, [0, 1], [0, 20]); 
   return (

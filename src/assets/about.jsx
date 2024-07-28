@@ -8,7 +8,7 @@ const About = () => {
             {/* ==== Header ========= */}
             <Header order={'01'} text={'ABOUT'} margin={'tab:mt-[27vw]'}/>
             {/* ======== About First Content============= */}
-            <div className=" flex flex-col lg:justify-center lg:items-center lg:flex-row lg:gap-x-[12.4vw]">
+            <div className=" flex flex-col lg:justify-between lg:items-center lg:flex-row lg:px-[8vw] xl:px-[12.2vw]">
 
                 <div className="tab:absolute tab:-right-[17vw] tab:-top-[27vw] tab:w-[50%] relative lg:w-auto ">
                     <img src="/images/matthias-about-image.png" alt="" />
@@ -41,8 +41,8 @@ const About = () => {
                     </p>
                     <p className="text-[#FFEFCC] md:text-[1.5rem] xs:text-[14px] mt-5 underline capitalize underline-offset-4">continue</p>
                 </div>
-                <div className="flex items-end justify-end">
-                    {/* <div className="absolute bg-gradient-to-r w-[17.64vw] h-[11.4vw] xs:blur-[40px] sm:blur-[6.95vw] -right-[5vw] rounded-[100%]" /> */}
+                <div className="flex items-end lg:justify-end tab:justify-center">
+                    <div className="absolute bg-gradient-to-r w-[17.64vw] h-[11.4vw] xs:blur-[40px] sm:blur-[6.95vw] lg:-right-[5vw] rounded-[100%] z-[-1]" />
                 </div>
                 {/* ====Second image==== */}
                 <div className="flex phone:w-full justify-center items-center xs:px-[5.5vw] sm:px-[3rem] my-10 sm:mt-20">

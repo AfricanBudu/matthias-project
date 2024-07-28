@@ -121,9 +121,12 @@ body {
   /* font-family: 'Bold Grotesk'; */
   /* font-weight: bold; */
 }
-@media screen and (max-width:767px) {
+@media screen and (max-width:1113px) {
   .mybg{
     background:linear-gradient(rgba(0, 0, 0, 0.548), rgba(0, 0, 0, 0.541)), url("/public/images/matthias-pliessnig-1\ 2.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
   }
   .bg-me{
     background: linear-gradient(to right,transparent,transparent,rgba(0, 0, 0, 0.499), rgba(0, 0, 0, 0.821));

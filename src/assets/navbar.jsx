@@ -1,7 +1,6 @@
-import { ChevronDownIcon, ArrowRightIcon } from "@heroicons/react/16/solid"
-
+import { ChevronDownIcon, ArrowRightIcon } from "@heroicons/react/16/solid";
 import  { useState } from 'react';
-const Navbar = () => {
+const Navbar = ({onLinkClick}) => {
   const [isOpen, setIsOpen] = useState(false);
 
   const toggleDropdown = () => setIsOpen(!isOpen);
@@ -15,18 +14,18 @@ const Navbar = () => {
           <ul className=" flex mr-5 items-center text-[#B9B8C1] text-xl space-x-6">
             <li className="text-active"><a href="#home">Home</a></li>
             <li className=""><a href="#about">About</a></li>
-            <li className=" flex items-center">
+            <li className=" flex items-center" onClick={onLinkClick}>
               <a href="#product">Product</a>
               <ChevronDownIcon className="h-5 w-5 mt-0.5 ml-1" />
             </li>
-            <li className=" flex items-center">
+            <li className=" flex items-center" onClick={onLinkClick}>
               <a href="#process">Process</a>
               <ChevronDownIcon className=" h-5 w-5 mt-0.5 ml-1" />
             </li>
           </ul>
           <div>
             <div className='mr-6 bg-tempura inline-block relative p-[0.0625rem] rounded-3xl items-center gradient-border'  >
-              <button className=' bg-[#E8E8E8] text-xl text-[#414141] px-6 py-1 rounded-3xl flex items-center'>
+              <button className=' bg-[#E8E8E8] text-xl text-[#414141] px-6 py-1 rounded-3xl flex items-center' onClick={onLinkClick}>
                 Contact Us
                 <ArrowRightIcon className="h-[12px] w-[18px] ml-2" />
               </button>
@@ -51,10 +50,10 @@ const Navbar = () => {
             </div>
             {isOpen && (
                 <div className="dropdown-list fixed bg-[#171717] text-[#B9B8C1]  right-0 left-0 bottom-0 top-0 z-[-1] pt-24 p-4 ">
-                    <div className="dropdown-item text-2xl" onClick={() => setIsOpen(false)}>Home</div>
-                    <div className="dropdown-item text-2xl" onClick={() => setIsOpen(false)}>About</div>
-                    <div className="dropdown-item text-2xl" onClick={() => setIsOpen(false)}>Product</div>
-                    <div className="dropdown-item text-2xl" onClick={() => setIsOpen(false)}>Process</div>
+                    <div className="dropdown-item text-2xl" onClick={() => {setIsOpen(false)}}>Home</div>
+                    <div className="dropdown-item text-2xl" onClick={() => {setIsOpen(false)}}>About</div>
+                    <div className="dropdown-item text-2xl" onClick={() => {setIsOpen(false)}}>Product</div>
+                    <div className="dropdown-item text-2xl" onClick={() => {setIsOpen(false)}}>Process</div>
                 </div>
             )}
         </div>
@@ -62,6 +61,6 @@ const Navbar = () => {
       </div>
     </nav>
   )
-}
+};
 
 export default Navbar;

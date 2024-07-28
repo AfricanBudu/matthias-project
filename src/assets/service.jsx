@@ -2,11 +2,11 @@ import Header from "../Components/Card/header";
 
 const Service = () => {
   return (
-    <div className="pb-[30vw]">
+    <div className="">
         <Header order={'02'} text={'SERVICES'} margin={'mt-[15vw]'}/>
         <section className=' xl:px-[4.5rem] md:px-[4rem] xs:px-4'>
             <div className='font-General_Sans'>
-                <p className=' xl:text-[32px] md:leading-[38px] xs:text-[12px] font-[500] text-[#B9B8C1]'>Our services entails sculpting and furniture which are tailor made to the client taste. 
+                <p className=' lg:text-[32px] lg:leading-[38px] md:text-[22px] xs:text-[12px] font-[500] text-[#B9B8C1]'>Our services entails sculpting and furniture which are tailor made to the client taste. 
                 This comes in various size and shapes</p>
             </div>
             <div className='pt-[4.45vw]'>

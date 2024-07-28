@@ -42,18 +42,18 @@ const Process = () => {
 
   return (
     <>
-    <section className=''>
+    <section className='sticky lg:mt-[-23.2vw] phone:mt-[-67vw] xs:mt-[-77vw] sm:mt-[-45vw]'>
       <div className='relative'>
       <Header order='03' text='PROCESS'/>
       </div>
 
-      <div className='xl:px-[4.5rem] md:px-[4rem] xs:px-4 pb-[20]'>
+      <div className='xl:px-[4.5rem] md:px-[4rem] xs:px-4 '>
         <div className='font-General_Sans'>
           <p className=' md:text-[32px]  xs:text-[12px] leading-[38px] font-[500] text-[#B9B8C1]'>How we create these artistic sculptures</p>
         </div>            
       </div>
       <div className=''>
-        <main ref={container} className="relative mt-[7vw] ">
+        <main ref={container} className="relative mt-[2vw] ">
           {
             projects.map( (project, i) => {
               const targetScale = 1 - ( (projects.length - i) * 0.05);
