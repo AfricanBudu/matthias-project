@@ -12,7 +12,7 @@ const Navbar = ({onLinkClick}) => {
         {/* ======Larger screen====== */}
         <div className="hidden justify-between xl:w-[60%] md:flex">
           <ul className=" flex mr-5 items-center text-[#B9B8C1] text-xl space-x-6">
-            <li className="text-active"><a href="#home">Home</a></li>
+            <li className="text-active" onClick={onLinkClick}><a href="#home">Home</a></li>
             <li className="" onClick={onLinkClick}><a href="#about">About</a></li>
             <li className=" flex items-center" onClick={onLinkClick}>
               <a href="#product">Product</a>

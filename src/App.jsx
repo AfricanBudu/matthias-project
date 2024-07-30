@@ -7,6 +7,8 @@ import Lenis from '@studio-freight/lenis'
 import Service from './assets/service';
 import Background from './Components/Card/background';
 import Process from './assets/process';
+
+
 import Portfolio from './assets/portfolio';
 import Contact from './assets/contact';
 // import { useScroll } from 'framer-motion';
@@ -54,6 +56,7 @@ export default function App() {
       </div>
       <Portfolio />
       <Contact />
+      
     </>
   )
 }
