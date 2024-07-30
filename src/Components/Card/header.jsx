@@ -8,7 +8,7 @@ const Header = (props) => {
                 {props.order}
             </div>}
             <div className="relative xl:pl-[4.7rem] md:pl-[42px] xs:pl-[20px] text-right xl:text-[50px] md:text-[30px] xs:text-[15px] text-[#878787] xl:mb-[2.2rem] md:mb-[20px] xs:mb-[12px]">
-                <span className="gradient-underline">
+                <span className="gradient-underline xs:no-underline">
                 {props.text}
                 </span>
             </div>

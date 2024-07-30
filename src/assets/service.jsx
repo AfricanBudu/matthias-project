@@ -3,7 +3,7 @@ import Header from "../Components/Card/header";
 const Service = () => {
   return (
     <div className="">
-        <Header order={'02'} text={'SERVICES'} margin={'mt-[15vw]'}/>
+        <Header order={'02'} text={'OUR SERVICES'} margin={'mt-[15vw]'}/>
         <section className=' xl:px-[4.5rem] md:px-[4rem] xs:px-4'>
             <div className='font-General_Sans'>
                 <p className=' lg:text-[32px] lg:leading-[38px] md:text-[22px] xs:text-[12px] font-[500] text-[#B9B8C1]'>Our services entails sculpting and furniture which are tailor made to the client taste. 

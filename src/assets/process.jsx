@@ -44,12 +44,12 @@ const Process = () => {
     <>
     <section className='sticky lg:mt-[-23.2vw] phone:mt-[-67vw] xs:mt-[-77vw] sm:mt-[-45vw]'>
       <div className='relative'>
-      <Header order='03' text='PROCESS'/>
+      <Header order='03' text='OUR PROCESS'/>
       </div>
 
       <div className='xl:px-[4.5rem] md:px-[4rem] xs:px-4 '>
         <div className='font-General_Sans'>
-          <p className=' md:text-[32px]  xs:text-[12px] leading-[38px] font-[500] text-[#B9B8C1] pb-20'>How we create these artistic sculptures</p>
+          <p className=' md:text-[32px] md:block xs:hidden  xs:text-[12px] leading-[38px] font-[500] text-[#B9B8C1] pb-20'>How we create these artistic sculptures</p>
         </div>            
       </div>
       <div className=''>
