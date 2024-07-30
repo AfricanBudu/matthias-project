@@ -12,7 +12,7 @@ const Modal = ({open, onClose, children}) => {
                 onClose();
                 console.log('Close button clicked');
             }}
-            className="bg-blue-500 text-white px-4 py-2 rounded hover:bg-blue-700"
+            className="bg-white text-black px-4 py-2 rounded hover:bg-blue-black hover:text-white"
           >
             Return to home page
           </button>
