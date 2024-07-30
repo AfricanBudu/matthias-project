@@ -11,7 +11,7 @@ const Matthias = ({onLinkClick}) => {
                 <p className=" xl:text-[6.12vw] md:text-[6.12vw] xs:text-[32px] font-Medium_Grotesk md:leading-[6.9vw] text-[#DDDAC2]">Matthias Pliessing</p>
                 <p className="md:text-[4.87vw] xs:text-[28px] font-taviraj italic xl:leading-[6rem]  md:leading-[24.4px] xs:leading-none text-[#DDDAC2]">Visual Designer</p>
                 </div>
-                <p className="font-General_Sans font-medium text-[#B9B8C1] xl:text-[24px] md:text-[24px] xs:text-[12px] md:max-w-[670px] xs:max-w-[350px]">
+                <p className="font-General_Sans font-medium text-[#B9B8C1] xl:text-[24px] md:text-[24px] xs:text-[12px] md:max-w-[670px] xs:max-w-[300px]">
                 An acclaimed furniture designer based in Brooklyn, 
                 New York whose work uses steam bent wood. 
                 He uses &ldquo;kinetically contemporary&rdquo; style to craft 
