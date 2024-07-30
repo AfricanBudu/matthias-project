@@ -29,27 +29,27 @@ export default function App() {
         modules={[Autoplay, Pagination, Navigation]}
         className="mySwiper"
       >
-        <SwiperSlide className='md:h-[760px] xs:h-[200px]'>
-        <img src="/images/matthias-welcome-image.png" alt="a piece of art" />
+        <SwiperSlide className='lg:h-[700px] xs:h-[200px]'>
+        <img src="https://images.pexels.com/photos/27498740/pexels-photo-27498740/free-photo-of-mathy3.png?auto=compress&cs=tinysrgb&w=1000&lazy=load" alt="a piece of art" />
         </SwiperSlide>
-        <SwiperSlide className='md:h-[760px] xs:h-[200px]'>
-        <img src="/images/second.png" alt="a piece of art" />
+        <SwiperSlide className='lg:h-[700px] xs:h-[200px]'>
+        <img src="https://images.pexels.com/photos/27498737/pexels-photo-27498737/free-photo-of-math4.png?auto=compress&cs=tinysrgb&w=1000&lazy=load" alt="a piece of art" />
 
         </SwiperSlide>
-        <SwiperSlide className='md:h-[760px] xs:h-[200px]'>
-        <img src="/images/third.png" alt="a piece of art" />
+        <SwiperSlide className='lg:h-[700px] xs:h-[200px]'>
+        <img src="https://images.pexels.com/photos/27498739/pexels-photo-27498739/free-photo-of-math6.png?auto=compress&cs=tinysrgb&w=1000&lazy=load" alt="a piece of art" />
 
         </SwiperSlide>
-        <SwiperSlide className='md:h-[760px] xs:h-[200px]'>
-        <img src="/images/fourth.png" alt="a piece of art" />
+        <SwiperSlide className='lg:h-[700px] xs:h-[200px]'>
+        <img src="https://images.pexels.com/photos/27498736/pexels-photo-27498736/free-photo-of-mathy2.png?auto=compress&cs=tinysrgb&w=1000&lazy=load" alt="a piece of art" />
 
         </SwiperSlide>
-        <SwiperSlide className='md:h-[760px] xs:h-[200px]'>
-        <img src="/images/fifth.png" alt="a piece of art" />
+        <SwiperSlide className='lg:h-[700px] xs:h-[200px]'>
+        <img src="https://images.pexels.com/photos/27498735/pexels-photo-27498735/free-photo-of-mathy.png?auto=compress&cs=tinysrgb&w=1000&lazy=load" alt="a piece of art" />
 
         </SwiperSlide>
-        <SwiperSlide className='md:h-[760px] xs:h-[200px]'>
-        <img src="/images/six.png" alt="a piece of art" />
+        <SwiperSlide className='lg:h-[700px] xs:h-[200px]'>
+        <img src="https://images.pexels.com/photos/27498738/pexels-photo-27498738/free-photo-of-math5.png?auto=compress&cs=tinysrgb&w=1000&lazy=load" alt="a piece of art" />
 
         </SwiperSlide>
       
