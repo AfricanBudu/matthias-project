@@ -209,3 +209,21 @@ img{
 .dropdown-list{
   transition: all 0.5s;
 }
+
+/* Custom styles for Swiper pagination */
+.swiper-pagination {
+  bottom: 10px; /* Adjust the position of the pagination */
+}
+
+.swiper-pagination-bullet {
+  background: grey; /* Change the color of the pagination bullets */
+  opacity: 1; /* Make bullets fully opaque */
+  width: 8px; /* Adjust the size of the bullets */
+  height: 8px; /* Adjust the size of the bullets */
+  margin: 0 4px; /* Adjust spacing between bullets */
+  border-radius: 50%; /* Make bullets circular */
+}
+
+.swiper-pagination-bullet-active {
+  background: #ffffff; /* Change the color of the active bullet */
+}

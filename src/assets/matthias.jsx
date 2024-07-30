@@ -11,21 +11,18 @@ const Matthias = ({onLinkClick}) => {
                 <p className=" xl:text-[6.12vw] md:text-[6.12vw] xs:text-[32px] font-Medium_Grotesk md:leading-[6.9vw] text-[#DDDAC2]">Matthias Pliessing</p>
                 <p className="md:text-[4.87vw] xs:text-[28px] font-taviraj italic xl:leading-[6rem]  md:leading-[24.4px] xs:leading-none text-[#DDDAC2]">Visual Designer</p>
                 </div>
-                <p className="font-General_Sans font-medium text-[#B9B8C1] xl:text-[24px] md:text-[24px] xs:text-[12px]">
+                <p className="font-General_Sans font-medium text-[#B9B8C1] xl:text-[24px] md:text-[24px] xs:text-[12px] md:max-w-[670px] xs:max-w-[350px]">
                 An acclaimed furniture designer based in Brooklyn, 
-                <br className=""/>New York whose work uses steam bent wood. 
-                <br className=""/>He uses &ldquo;kinetically contemporary&rdquo; style to craft 
-                <br className=""/>masterpiece furniture for executive interior
+                New York whose work uses steam bent wood. 
+                He uses &ldquo;kinetically contemporary&rdquo; style to craft 
+                masterpiece furniture for executive interior
                 </p>
             </div>
-            <div className="flex gap-4 font-General_Sans font-medium lg:self-end">
+            <div className="flex gap-4 font-General_Sans font-medium lg:self-end md:justify-end md:w-[430px] ">
                 <button onClick={onLinkClick} className=' bg-[#E8E8E8]  text-[#051118] px-6 py-1 rounded-3xl flex items-center  md:h-[50px] xs:h-[35px] md:text-[20px] xs:text-[12px]'>
-                    Instagram
+                    Ask For Quote
                 </button>
-                <button onClick={onLinkClick} className=' bg-transparent  md:h-[50px] xs:h-[35px] md:text-[20px] xs:text-[12px] text-[#E8E8E8] px-6 py-1 border-[1px] border-[#E8E8E8] rounded-3xl flex items-center '>
-                    Contact Us 
-                    <ArrowRightIcon className="h-5 w-5 ml-2"/>
-                </button>
+            
             </div>
         </div>
         <div className="welcome-img mt-28">

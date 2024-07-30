@@ -22,7 +22,9 @@ export default function App() {
           delay: 2500,
           disableOnInteraction: false,
         }}
-       
+        pagination={{
+            clickable: true,
+          }}
         
         modules={[Autoplay, Pagination, Navigation]}
         className="mySwiper"
