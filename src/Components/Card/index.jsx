@@ -1,6 +1,7 @@
 
 import { useTransform, motion, useScroll } from 'framer-motion';
 import { useRef,useEffect } from 'react';
+import { Link } from 'react-router-dom';
 
 const Card = ({i, title, description, progress, range, targetScale, bg}) => {
 

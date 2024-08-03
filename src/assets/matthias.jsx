@@ -1,5 +1,6 @@
 import { ArrowRightIcon } from "@heroicons/react/16/solid";
 import Carousel from '../Components/Card/carousel'
+import { Link } from 'react-router-dom';
 
 
 const Matthias = ({onLinkClick}) => {
@@ -19,9 +20,11 @@ const Matthias = ({onLinkClick}) => {
                 </p>
             </div>
             <div className="flex gap-4 font-General_Sans font-medium lg:self-end md:justify-end md:w-[430px] ">
+                <Link to="/overlay">
                 <button onClick={onLinkClick} className=' bg-[#E8E8E8]  text-[#051118] px-6 py-1 rounded-3xl flex items-center  md:h-[50px] xs:h-[35px] md:text-[20px] xs:text-[12px]'>
                     Ask For Quote
                 </button>
+                </Link>
             
             </div>
         </div>

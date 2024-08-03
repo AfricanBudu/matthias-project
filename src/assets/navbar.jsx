@@ -1,6 +1,7 @@
 import { ChevronDownIcon, ArrowRightIcon } from "@heroicons/react/16/solid";
 import  { useState } from 'react';
-const Navbar = ({onLinkClick}) => {
+import { Link } from "react-router-dom";
+const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
 
   const toggleDropdown = () => setIsOpen(!isOpen);
@@ -12,23 +13,25 @@ const Navbar = ({onLinkClick}) => {
         {/* ======Larger screen====== */}
         <div className="hidden justify-between xl:w-[60%] md:flex">
           <ul className=" flex mr-5 items-center text-[#B9B8C1] text-xl space-x-6">
-            <li className="text-active" onClick={onLinkClick}><a href="#home">Home</a></li>
-            <li className="" onClick={onLinkClick}><a href="#about">About</a></li>
-            <li className=" flex items-center" onClick={onLinkClick}>
-              <a href="#product">Product</a>
+            <li className="text-active" ><Link to="/overlay">Home</Link></li>
+            <li className="" ><Link to="/overlay">About</Link></li>
+            <li className=" flex items-center" >
+              <Link to="/overlay">Product</Link>
               <ChevronDownIcon className="h-5 w-5 mt-0.5 ml-1" />
             </li>
-            <li className=" flex items-center" onClick={onLinkClick}>
-              <a href="#process">Process</a>
+            <li className=" flex items-center" >
+              <Link to="/overlay">Process</Link>
               <ChevronDownIcon className=" h-5 w-5 mt-0.5 ml-1" />
             </li>
           </ul>
           <div>
             <div className='mr-6 bg-tempura inline-block relative p-[0.0625rem] rounded-3xl items-center gradient-border'  >
+              <Link to='/overlay'>
               <button className=' bg-[#E8E8E8] text-xl text-[#414141] px-6 py-1 rounded-3xl flex items-center' >
                 Contact Us
                 <ArrowRightIcon className="h-[12px] w-[18px] ml-2" />
               </button>
+              </Link>
             </div>
           </div>
         </div>
@@ -50,10 +53,14 @@ const Navbar = ({onLinkClick}) => {
             </div>
             {isOpen && (
                 <div className="dropdown-list fixed bg-[#171717] text-[#B9B8C1]  right-0 left-0 bottom-0 top-0 z-[-1] pt-24 p-4 ">
-                    <div className="dropdown-item text-2xl" onClick={onLinkClick}>Home</div>
-                    <div className="dropdown-item text-2xl" onClick={onLinkClick}>About</div>
-                    <div className="dropdown-item text-2xl" onClick={onLinkClick}>Product</div>
-                    <div className="dropdown-item text-2xl" onClick={onLinkClick}>Process</div>
+                    <div className="dropdown-item text-2xl" >
+                      <Link to='/overlay'>
+                      Home
+                      </Link>
+                    </div>
+                    <div className="dropdown-item text-2xl" > <Link to='/overlay'>About</Link> </div>
+                    <div className="dropdown-item text-2xl" > <Link to='/overlay'>Product</Link> </div>
+                    <div className="dropdown-item text-2xl" > <Link to='/overlay'>Process</Link> </div>
                 </div>
             )}
         </div>

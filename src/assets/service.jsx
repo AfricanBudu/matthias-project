@@ -1,4 +1,5 @@
 import Header from "../Components/Card/header";
+import { Link } from 'react-router-dom';
 
 const Service = ({onLinkClick}) => {
   return (
@@ -12,7 +13,8 @@ const Service = ({onLinkClick}) => {
             <div className='pt-[4.45vw]'>
                 <div className="grid grid-cols-12 xl:gap-12 md:gap-10 xs:gap-4">
                     <div className=' col-span-6  bg-[#2F2A26] xl:p-6 md:p-4 xs:p-3 pb-24 xl:rounded-[45px] md:rounded-[30px] xs:rounded-[16px]  relative'>
-                        <div className="bg-white w-[40px] h-[40px] rounded-full grid place-items-center absolute bottom-[-20px] right-[40%] lg:hidden xs:grid " onClick={onLinkClick}>
+                    <Link to="/overlay" className="bg-white w-[40px] h-[40px] rounded-full grid place-items-center absolute bottom-[-20px] right-[40%] lg:hidden xs:grid">
+                    <div className="e  " onClick={onLinkClick}>
                             <div>
                                 <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-6">
                                     <path stroke-linecap="round" stroke-linejoin="round" d="M13.5 4.5 21 12m0 0-7.5 7.5M21 12H3" />
@@ -20,6 +22,8 @@ const Service = ({onLinkClick}) => {
 
                             </div>
                         </div>
+                    </Link>
+                       
                         <div className='flex items-center justify-center xl:py-10 md:py-8 xs:py-4 pt-5 w-full lg:flex xs:hidden'>
                             <div className='w-[72px] border border-[#D9D9D999]'></div>
                         </div>
@@ -35,7 +39,8 @@ const Service = ({onLinkClick}) => {
                         </div>
                     </div>
                     <div className=' col-span-6  bg-[#2F2A26] xl:p-6 md:p-4 xs:p-3 pb-24 xl:rounded-[45px] md:rounded-[30px] xs:rounded-[16px] relative'>
-                        <div className="bg-white w-[40px] h-[40px] rounded-full grid place-items-center absolute bottom-[-20px] right-[40%] lg:hidden xs:grid " onClick={onLinkClick}>
+                    <Link to="/overlay" className="bg-white w-[40px] h-[40px] rounded-full grid place-items-center absolute bottom-[-20px] right-[40%] lg:hidden xs:grid">
+                    <div className="e  " onClick={onLinkClick}>
                             <div>
                                 <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-6">
                                     <path stroke-linecap="round" stroke-linejoin="round" d="M13.5 4.5 21 12m0 0-7.5 7.5M21 12H3" />
@@ -43,6 +48,7 @@ const Service = ({onLinkClick}) => {
 
                             </div>
                         </div>
+                    </Link>
                         <div className='flex items-center justify-center xl:py-10 md:py-8 xs:py-4 pt-5 w-full lg:flex xs:hidden'>
                             <div className='w-[72px] border border-[#D9D9D999]'>
                             </div>

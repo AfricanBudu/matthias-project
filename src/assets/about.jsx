@@ -1,6 +1,6 @@
 import Header from "../Components/Card/header";
 // import img from "/";
-
+import { Link } from 'react-router-dom';
 const About = () => {
 
     return (
@@ -39,7 +39,10 @@ const About = () => {
                         was inspired to apply those techniques, particularly
                         steam bending of wood strips around a mold, to furniture making.
                     </p>
+                    <Link to='/overlay'>
                     <p className="text-[#FFEFCC] md:text-[1.5rem] xs:text-[14px] mt-5 underline capitalize underline-offset-4">continue</p>
+
+                    </Link>
                 </div>
                 <div className="flex items-end lg:justify-end tab:justify-center">
                     <div className="absolute bg-gradient-to-r w-[17.64vw] h-[11.4vw] xs:blur-[40px] sm:blur-[6.95vw] lg:-right-[5vw] rounded-[100%] z-[-1]" />

@@ -3,6 +3,7 @@ import { useEffect, useRef, useState } from 'react';
 import { projects } from '../data';
 import Card from '../Components/Card/index';
 import Header from '../Components/Card/header';
+import { Link } from 'react-router-dom';
 
 import { useScroll } from 'framer-motion';
 
