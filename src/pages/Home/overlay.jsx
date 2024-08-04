@@ -45,10 +45,10 @@ export default function App() {
     <>
     <div className={`fixed inset-0 flex items-center justify-center bg-black/75 backdrop-blur-md z-20 ${open ? "visible bg-black/75" : "invisible"}`}>
         <div className="bg-none p-8 rounded-lg shadow-lg text-center">
-          <p className="text-[7vw] leading-none mb-4  text-white pb-10">Page under construction</p>
+          <p className="text-[7vw] leading-none mb-4  text-white pb-10 font-General_Sans">Page under construction</p>
           <Link to='/'>
           <button
-               className="bg-white text-black px-4 py-2 rounded-3xl hover:bg-black hover:text-white"
+               className="bg-white font-General_Sans  text-black px-4 py-2 rounded-3xl text-lg hover:bg-black hover:text-white"
             >
               Return to home page
             </button>
